@@ -1,5 +1,5 @@
 try:
-    file = open('output.txt', 'r+')
+    file = open('output.txt', 'w')
 except FileNotFoundError:
     print("No such file or directory")
 else:
