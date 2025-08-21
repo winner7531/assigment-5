@@ -18,3 +18,6 @@ else:
     print('\n')
     print(file.readline())
 
+finally: 
+    file.close()
+
